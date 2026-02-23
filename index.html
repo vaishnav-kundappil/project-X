@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nexus IT Solutions - Software Development, Mobile Apps, Integration & IT Services">
+  <title>Nexus IT Solutions | Software Development & IT Services</title>
+  <!-- Google Fonts: clean professional typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ========== STICKY NAVIGATION ========== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">Nexus IT</a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+        <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
+        <li><a href="#faq" class="nav__link">FAQ</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <div class="hero__gradient"></div>
+        <div class="hero__grid"></div>
+      </div>
+      <div class="hero__content container">
+        <p class="hero__badge fade-in">Trusted IT Partner Since 2015</p>
+        <h1 class="hero__title fade-in">
+          Transform Your Business with <span class="hero__accent">Digital Solutions</span>
+        </h1>
+        <p class="hero__subtitle fade-in">
+          Custom software, mobile apps, and enterprise integrations that scale with your growth.
+        </p>
+        <div class="hero__cta fade-in">
+          <a href="#services" class="btn btn--primary">Explore Services</a>
+          <a href="#contact" class="btn btn--outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero__scroll">
+        <span class="hero__scroll-text">Scroll</span>
+        <span class="hero__scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ========== OUR SERVICE LOCATIONS ========== -->
+    <section class="section locations" id="locations">
+      <div class="container">
+        <h2 class="section__title fade-in">Our Service Locations</h2>
+        <p class="section__subtitle fade-in">We deliver IT solutions across key regions with local support teams.</p>
+        <div class="locations__grid">
+          <article class="location-card fade-in">
+            <div class="location-card__icon">
+              <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=400&h=300&fit=crop" alt="North America" loading="lazy">
+            </div>
+            <h3>North America</h3>
+            <p>USA, Canada — Headquarters & primary delivery center.</p>
+          </article>
+          <article class="location-card fade-in">
+            <div class="location-card__icon">
+              <img src="https://images.unsplash.com/photo-1486299261210-63b450896602?w=400&h=300&fit=crop" alt="Europe" loading="lazy">
+            </div>
+            <h3>Europe</h3>
+            <p>UK, Germany, France — Regional offices and support.</p>
+          </article>
+          <article class="location-card fade-in">
+            <div class="location-card__icon">
+              <img src="https://images.unsplash.com/photo-1523482580671-f2165d939406?w=400&h=300&fit=crop" alt="Asia Pacific" loading="lazy">
+            </div>
+            <h3>Asia Pacific</h3>
+            <p>India, Singapore, Australia — Development and operations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPLAINER VIDEO PLACEHOLDER ========== -->
+    <section class="section video-section">
+      <div class="container">
+        <h2 class="section__title fade-in">How We Deliver Value</h2>
+        <p class="section__subtitle fade-in">Watch a quick overview of our process and capabilities.</p>
+        <div class="video-placeholder fade-in">
+          <div class="video-placeholder__inner">
+            <div class="video-placeholder__play" aria-hidden="true">
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="32" fill="rgba(255,255,255,0.2)"/>
+                <path d="M26 20v24l18-12L26 20z" fill="white"/>
+              </svg>
+            </div>
+            <p class="video-placeholder__label">Explainer Video</p>
+            <img src="https://images.unsplash.com/photo-1551431009-a802eeec77b1?w=1200&h=675&fit=crop" alt="Team collaboration" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TRUSTED BY ========== -->
+    <section class="section trusted" id="trusted">
+      <div class="container">
+        <h2 class="section__title fade-in">Trusted By</h2>
+        <p class="section__subtitle fade-in">Leading organizations rely on us for their technology needs.</p>
+        <div class="trusted__counters fade-in">
+          <div class="counter" data-target="350">
+            <span class="counter__value">0</span>
+            <span class="counter__suffix">+</span>
+            <p class="counter__label">Happy Clients</p>
+          </div>
+          <div class="counter" data-target="500">
+            <span class="counter__value">0</span>
+            <span class="counter__suffix">+</span>
+            <p class="counter__label">Projects Delivered</p>
+          </div>
+          <div class="counter" data-target="98">
+            <span class="counter__value">0</span>
+            <span class="counter__suffix">%</span>
+            <p class="counter__label">Success Rate</p>
+          </div>
+          <div class="counter" data-target="12">
+            <span class="counter__value">0</span>
+            <span class="counter__suffix">+</span>
+            <p class="counter__label">Years Experience</p>
+          </div>
+        </div>
+        <div class="trusted__logos">
+          <div class="trusted__logo-item fade-in"><span>Client One</span></div>
+          <div class="trusted__logo-item fade-in"><span>Client Two</span></div>
+          <div class="trusted__logo-item fade-in"><span>Client Three</span></div>
+          <div class="trusted__logo-item fade-in"><span>Client Four</span></div>
+          <div class="trusted__logo-item fade-in"><span>Client Five</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== INDUSTRY PORTFOLIO ========== -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="section__title fade-in">Industry Portfolio</h2>
+        <p class="section__subtitle fade-in">Solutions tailored to your industry.</p>
+        <div class="portfolio__grid">
+          <article class="portfolio-card fade-in">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop" alt="Real Estate" loading="lazy">
+            <div class="portfolio-card__overlay">
+              <h3>Real Estate</h3>
+              <p>Property platforms and CRM solutions.</p>
+            </div>
+          </article>
+          <article class="portfolio-card fade-in">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop" alt="Healthcare" loading="lazy">
+            <div class="portfolio-card__overlay">
+              <h3>Healthcare</h3>
+              <p>HIPAA-compliant systems and telemedicine.</p>
+            </div>
+          </article>
+          <article class="portfolio-card fade-in">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop" alt="Finance" loading="lazy">
+            <div class="portfolio-card__overlay">
+              <h3>Finance & Banking</h3>
+              <p>Secure fintech and payment solutions.</p>
+            </div>
+          </article>
+          <article class="portfolio-card fade-in">
+            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&h=400&fit=crop" alt="Enterprise" loading="lazy">
+            <div class="portfolio-card__overlay">
+              <h3>Enterprise</h3>
+              <p>ERP, workflow, and process automation.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CLIENT STORIES / TESTIMONIALS SLIDER ========== -->
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <h2 class="section__title fade-in">Client Stories</h2>
+        <p class="section__subtitle fade-in">What our clients say about working with us.</p>
+        <div class="testimonial-slider">
+          <div class="testimonial-slider__track">
+            <blockquote class="testimonial-slide testimonial-slide--active">
+              <p class="testimonial-slide__text">Nexus delivered our mobile app on time and within budget. The team understood our requirements from day one and brought real expertise to the table.</p>
+              <footer class="testimonial-slide__author">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face" alt="John D." loading="lazy">
+                <div>
+                  <strong>John Davis</strong>
+                  <span>CTO, TechStart Inc.</span>
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-slide">
+              <p class="testimonial-slide__text">Their integration work streamlined our entire operations. We now have a single source of truth across CRM, ERP, and e-commerce.</p>
+              <footer class="testimonial-slide__author">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" alt="Sarah M." loading="lazy">
+                <div>
+                  <strong>Sarah Mitchell</strong>
+                  <span>Operations Director, RetailCo</span>
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial-slide">
+              <p class="testimonial-slide__text">Professional, responsive, and technically strong. We've extended our contract for phase two. Highly recommend.</p>
+              <footer class="testimonial-slide__author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face" alt="Michael R." loading="lazy">
+                <div>
+                  <strong>Michael Roberts</strong>
+                  <span>CEO, ScaleUp Labs</span>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="testimonial-slider__nav">
+            <button class="testimonial-slider__btn testimonial-slider__btn--prev" aria-label="Previous testimonial">&larr;</button>
+            <div class="testimonial-slider__dots"></div>
+            <button class="testimonial-slider__btn testimonial-slider__btn--next" aria-label="Next testimonial">&rarr;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GOOGLE REVIEWS SECTION ========== -->
+    <section class="section reviews">
+      <div class="container">
+        <h2 class="section__title fade-in">Google Reviews</h2>
+        <p class="section__subtitle fade-in">See what others are saying on Google.</p>
+        <div class="reviews__grid">
+          <div class="review-card fade-in">
+            <div class="review-card__stars">★★★★★</div>
+            <p>Outstanding support and delivery. Our project was complex and they handled it with expertise.</p>
+            <span class="review-card__meta">— Google Review</span>
+          </div>
+          <div class="review-card fade-in">
+            <div class="review-card__stars">★★★★★</div>
+            <p>Best IT partner we've worked with. Transparent pricing and clear communication throughout.</p>
+            <span class="review-card__meta">— Google Review</span>
+          </div>
+          <div class="review-card fade-in">
+            <div class="review-card__stars">★★★★★</div>
+            <p>Highly recommend for software development. They delivered exactly what we needed.</p>
+            <span class="review-card__meta">— Google Review</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SNAPSHOT ========== -->
+    <section class="section snapshot about-snapshot">
+      <div class="container">
+        <h2 class="section__title fade-in">About Snapshot</h2>
+        <div class="snapshot__content fade-in">
+          <div class="snapshot__text">
+            <p>We are a full-service IT solutions company focused on software development, mobile applications, and enterprise integrations. Our team of engineers and consultants works with businesses of all sizes to build scalable, secure, and user-friendly technology.</p>
+            <p>Founded with a mission to bridge the gap between business needs and technology delivery, we combine industry best practices with a client-first approach.</p>
+          </div>
+          <div class="snapshot__image">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop" alt="Our team" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES SNAPSHOT ========== -->
+    <section class="section snapshot services-snapshot">
+      <div class="container">
+        <h2 class="section__title fade-in">Services Snapshot</h2>
+        <div class="snapshot__grid fade-in">
+          <div class="snapshot-card">
+            <span class="snapshot-card__icon">&#9881;</span>
+            <h3>Software Development</h3>
+            <p>Custom web and desktop applications built for your workflow.</p>
+          </div>
+          <div class="snapshot-card">
+            <span class="snapshot-card__icon">&#128241;</span>
+            <h3>Mobile Apps</h3>
+            <p>Native and cross-platform iOS and Android development.</p>
+          </div>
+          <div class="snapshot-card">
+            <span class="snapshot-card__icon">&#128260;</span>
+            <h3>Integration</h3>
+            <p>APIs, ERP/CRM connectors, and system customization.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== INDUSTRY SNAPSHOT ========== -->
+    <section class="section snapshot industry-snapshot">
+      <div class="container">
+        <h2 class="section__title fade-in">Industry Snapshot</h2>
+        <p class="section__subtitle fade-in">We serve a wide range of verticals with tailored solutions.</p>
+        <div class="industry-tags fade-in">
+          <span>Healthcare</span>
+          <span>Finance</span>
+          <span>Retail</span>
+          <span>Real Estate</span>
+          <span>Education</span>
+          <span>Logistics</span>
+          <span>Manufacturing</span>
+          <span>Government</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FAQ SECTION (ACCORDION) ========== -->
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <h2 class="section__title fade-in">Frequently Asked Questions</h2>
+        <div class="faq">
+          <div class="faq__item fade-in">
+            <button class="faq__question" aria-expanded="false" aria-controls="faq1" id="faq-q1">
+              What kind of projects do you take on?
+            </button>
+            <section class="faq__answer" id="faq1" aria-labelledby="faq-q1">
+              <p>We work on custom software development, mobile apps (iOS/Android), system integrations, IT goods supply, and CCTV & access control. From small business tools to enterprise platforms, we scope each project to your needs.</p>
+            </section>
+          </div>
+          <div class="faq__item fade-in">
+            <button class="faq__question" aria-expanded="false" aria-controls="faq2" id="faq-q2">
+              How long does a typical project take?
+            </button>
+            <section class="faq__answer" id="faq2" aria-labelledby="faq-q2">
+              <p>Timeline depends on scope. A simple website or app MVP might take 8–12 weeks; larger enterprise systems can run 6–12 months. We provide a detailed timeline and milestones during the discovery phase.</p>
+            </section>
+          </div>
+          <div class="faq__item fade-in">
+            <button class="faq__question" aria-expanded="false" aria-controls="faq3" id="faq-q3">
+              Do you offer ongoing support and maintenance?
+            </button>
+            <section class="faq__answer" id="faq3" aria-labelledby="faq-q3">
+              <p>Yes. We offer SLA-based support, bug fixes, updates, and feature enhancements. Many clients choose a retainer or annual maintenance plan after launch.</p>
+            </section>
+          </div>
+          <div class="faq__item fade-in">
+            <button class="faq__question" aria-expanded="false" aria-controls="faq4" id="faq-q4">
+              Can you integrate with our existing systems?
+            </button>
+            <section class="faq__answer" id="faq4" aria-labelledby="faq-q4">
+              <p>Absolutely. We specialize in integration and customization—APIs, ERP, CRM, payment gateways, and legacy systems. We assess your stack during discovery and propose a secure, scalable approach.</p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES (PAGE-STYLE SECTION) ========== -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <h2 class="section__title fade-in">Our Services</h2>
+        <p class="section__subtitle fade-in">End-to-end IT solutions for your business.</p>
+
+        <article class="service-block fade-in">
+          <div class="service-block__content">
+            <h3>Software Development</h3>
+            <p>Custom web and desktop applications, cloud-native solutions, and scalable software built with modern stacks. We deliver secure, maintainable code and clear documentation.</p>
+          </div>
+          <div class="service-block__image">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Software development" loading="lazy">
+          </div>
+        </article>
+
+        <article class="service-block service-block--reverse fade-in">
+          <div class="service-block__content">
+            <h3>Mobile Application Development</h3>
+            <p>Native iOS and Android apps, plus cross-platform solutions with React Native or Flutter. From MVPs to feature-rich applications with push, offline support, and integrations.</p>
+          </div>
+          <div class="service-block__image">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop" alt="Mobile development" loading="lazy">
+          </div>
+        </article>
+
+        <article class="service-block fade-in">
+          <div class="service-block__content">
+            <h3>Integration & Customization</h3>
+            <p>Connect your CRM, ERP, e-commerce, and internal tools with robust APIs and middleware. We customize off-the-shelf platforms to fit your processes and data flows.</p>
+          </div>
+          <div class="service-block__image">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop" alt="Integration" loading="lazy">
+          </div>
+        </article>
+
+        <article class="service-block service-block--reverse fade-in">
+          <div class="service-block__content">
+            <h3>Supply of IT Goods</h3>
+            <p>Hardware, workstations, servers, networking equipment, and peripherals. We source and supply quality IT goods with warranty and support options.</p>
+          </div>
+          <div class="service-block__image">
+            <img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=600&h=400&fit=crop" alt="IT goods" loading="lazy">
+          </div>
+        </article>
+
+        <article class="service-block fade-in">
+          <div class="service-block__content">
+            <h3>CCTV & Access Control</h3>
+            <p>Design, installation, and maintenance of surveillance and access control systems. Cameras, NVRs, door controllers, and management software for offices and facilities.</p>
+          </div>
+          <div class="service-block__image">
+            <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&h=400&fit=crop" alt="CCTV and access control" loading="lazy">
+          </div>
+        </article>
+
+        <!-- Order IT Goods CTA -->
+        <div class="service-cta fade-in">
+          <h3>Order IT Goods</h3>
+          <p>Need hardware or equipment? Get a quote tailored to your requirements.</p>
+          <a href="#contact" class="btn btn--primary">Request a Quote</a>
+        </div>
+
+        <!-- Let's Connect CTA -->
+        <div class="service-cta service-cta--accent fade-in" id="contact-cta">
+          <h3>Let's Connect</h3>
+          <p>Ready to start your project? Reach out for a free consultation.</p>
+          <a href="#contact" class="btn btn--outline btn--light">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT FORM SECTION ========== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <h2 class="section__title fade-in">Get in Touch</h2>
+        <p class="section__subtitle fade-in">Fill out the form and we'll get back to you shortly.</p>
+        <form class="contact-form fade-in" id="contact-form" novalidate>
+          <div class="contact-form__row">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="contact-form__row">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+          </div>
+          <div class="contact-form__row">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Company name">
+          </div>
+          <div class="contact-form__row">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Brief subject">
+          </div>
+          <div class="contact-form__row contact-form__row--full">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" required rows="5" placeholder="How can we help?"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer__main container">
+      <div class="footer__grid">
+        <!-- Hire -->
+        <div class="footer__col">
+          <h4>Hire</h4>
+          <ul>
+            <li><a href="#contact">Careers</a></li>
+            <li><a href="#contact">Freelance & Contract</a></li>
+            <li><a href="#services">Our Services</a></li>
+          </ul>
+        </div>
+        <!-- User Guides -->
+        <div class="footer__col">
+          <h4>User Guides for Services</h4>
+          <ul>
+            <li><a href="#">Software Development Guide</a></li>
+            <li><a href="#">Mobile App Guide</a></li>
+            <li><a href="#">Integration Guide</a></li>
+            <li><a href="#">IT Goods Ordering</a></li>
+          </ul>
+        </div>
+        <!-- About Us -->
+        <div class="footer__col">
+          <h4>About Us</h4>
+          <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <!-- Quick Links -->
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer__newsletter">
+        <h4>Industry Newsletter</h4>
+        <p>Get insights and updates on IT trends and our services.</p>
+        <form class="footer__newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email" aria-label="Email for newsletter" required>
+          <button type="submit" class="btn btn--primary">Sign Up</button>
+        </form>
+      </div>
+
+      <!-- Locations -->
+      <div class="footer__locations">
+        <h4>Locations We Are Present In</h4>
+        <ul>
+          <li>New York, USA</li>
+          <li>London, UK</li>
+          <li>Singapore</li>
+          <li>Bangalore, India</li>
+        </ul>
+      </div>
+
+      <!-- Contact & Social -->
+      <div class="footer__bottom">
+        <div class="footer__contact">
+          <h4>Contact</h4>
+          <p>Email: <a href="mailto:hello@nexusit.example">hello@nexusit.example</a></p>
+          <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+        </div>
+        <div class="footer__social">
+          <h4>Follow Us</h4>
+          <div class="footer__social-icons">
+            <a href="#" aria-label="LinkedIn"><span>in</span></a>
+            <a href="#" aria-label="Twitter"><span>𝕏</span></a>
+            <a href="#" aria-label="Facebook"><span>f</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copy">
+      <div class="container">&copy; <span id="year"></span> Nexus IT Solutions. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
